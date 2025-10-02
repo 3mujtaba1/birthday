@@ -2,5 +2,19 @@
   "dependencies": {
     "gsap": "^3.13.0",
     "ldrs": "^1.1.7"
+  },
+  "homepage": "https://3mujtaba1.github.io/birthday",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+  ,
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.7"
   }
 }
+
